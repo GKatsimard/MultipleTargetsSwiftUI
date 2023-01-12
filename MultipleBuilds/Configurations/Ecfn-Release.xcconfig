@@ -1,0 +1,13 @@
+//
+//  Ecfn-Release.xcconfig
+//  MultipleBuilds
+//
+//  Created by George Katsimardos on 9/1/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APP_NAME = Ecfn
+PRODUCT_BUNDLE_IDENTIFIER = com.ecfnbuild
+BASE_URL = app.ecfn.dvcld.co
+THEME_COLORS_FILE = ecfnThemeColors

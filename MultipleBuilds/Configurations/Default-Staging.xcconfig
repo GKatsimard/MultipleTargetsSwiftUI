@@ -1,0 +1,15 @@
+//
+//  Default-Staging.xcconfig
+//  MultipleBuilds
+//
+//  Created by George Katsimardos on 9/1/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Base.xcconfig"
+
+APP_NAME = $(inherited)QA
+PRODUCT_BUNDLE_IDENTIFIER = com.multiplebuilds
+BASE_URL = qa.multiplebuilds.dvcld.co
+THEME_COLORS_FILE = defaultThemeColors

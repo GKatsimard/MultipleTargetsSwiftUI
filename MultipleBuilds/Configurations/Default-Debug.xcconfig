@@ -1,0 +1,16 @@
+//
+//  Default-Debug.xcconfig
+//  MultipleBuilds
+//
+//  Created by George Katsimardos on 9/1/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Base.xcconfig"
+
+APP_NAME = $(inherited)Dev
+PRODUCT_BUNDLE_IDENTIFIER = com.multiplebuilds
+BASE_URL = dev.multiplebuilds.dvcld.co
+THEME_COLORS_FILE = defaultThemeColors
+

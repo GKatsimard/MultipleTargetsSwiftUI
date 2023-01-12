@@ -1,0 +1,15 @@
+//
+//  BrokerB-Staging.xcconfig
+//  MultipleBuilds
+//
+//  Created by George Katsimardos on 9/1/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "BrokerB-Release.xcconfig"
+
+APP_NAME = $(inherited)QA
+PRODUCT_BUNDLE_IDENTIFIER = com.brokerBbuild
+BASE_URL = qa.brokerb.dvcld.co
+THEME_COLORS_FILE = brokerBThemeColors
